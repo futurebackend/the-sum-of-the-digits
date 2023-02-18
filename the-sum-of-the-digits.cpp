@@ -9,5 +9,6 @@ cout<<"enter natural number: ";
     sum=sum+x%10;
     x=x/10;
     }
-    cout<<"the sum of the digits is: "<<sum;
+    cout<<"the sum of the digits is: "<<sum << endl;
+    return 0;
 }
